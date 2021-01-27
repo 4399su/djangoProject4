@@ -21,4 +21,5 @@ import contextTest
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('contextTest.urls')),
+    path('', include('formtest.urls')),
 ]
